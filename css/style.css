@@ -318,7 +318,7 @@ span {
     margin-bottom: 3rem;
 }
 
-.contacct form {
+.contact form {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
@@ -337,7 +337,7 @@ span {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: #ffffff;
+    background: var(--second-bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
 }
