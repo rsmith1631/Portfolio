@@ -217,7 +217,7 @@ span {
     transition: .5s ease;
 }
 
-    .services-container .services-box1 {
+    .services-container .services-box .services-box2 {
         flex: 1 1 30rem;
         background: var(--second-bg-color);
         padding: 3rem 2rem 4rem;
@@ -227,10 +227,11 @@ span {
         transition: .5s ease;
     }
 
-.services-container .services-box:hover .services-box:hover {
-    border-color: var(--main-color);
-    transform: scale(1.02);
-}
+
+    .services-container .services-box:hover .services-box2:hover {
+        border-color: var(--main-color);
+        transform: scale(1.02);
+    }
 
 .services-box i {
     font-size: 7rem;
